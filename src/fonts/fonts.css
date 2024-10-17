@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Manrope medium';
+  src: url(./manrope-medium.woff);
+}
+@font-face {
+  font-family: 'Manrope semi-bold';
+  src: url('./manrope-semibold.woff');
+}
+@font-face {
+  font-family: 'Manrope regular';
+  src: url('./manrope-regular.woff');
+}

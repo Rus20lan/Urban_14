@@ -1,0 +1,20 @@
+.container {
+  max-width: 196px;
+  width: auto;
+  max-height: 68px;
+  height: auto;
+  background: var(--dark-03);
+  border: 1px solid var(--dark-12);
+  border-radius: 100px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  gap: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "text": "Know More →",
+    "isIcon": true,
+    "size": {
+      "maxWidth": "163px",
+      "maxHeight": "59px",
+      "width": "100%",
+      "height": "100%",
+      "borderRadius": "10px",
+      "color": "white"
+    }
+  },
+  {
+    "text": "Let's Work",
+    "isIcon": true,
+    "size": {
+      "maxWidth": "213px",
+      "maxHeight": "63px",
+      "width": "213px",
+      "padding": "18px 34px",
+      "borderRadius": "10px",
+      "color": "white",
+      "justifyContent": "center"
+    }
+  },
+  {
+    "text": "Download CV",
+    "isIcon": true,
+    "size": {
+      "maxWidth": "213px",
+      "maxHeight": "63px",
+      "width": "213px",
+      "padding": "18px 34px",
+      "borderRadius": "10px",
+      "color": "white",
+      "justifyContent": "center"
+    }
+  },
+  {
+    "text": "View all Albums →",
+    "isIcon": true,
+    "size": {
+      "maxWidth": "210px",
+      "maxHeight": "59px",
+      "width": "100%",
+      "height": "100%",
+      "borderRadius": "10px",
+      "color": "white",
+      "justifyContent": "center"
+    }
+  }
+]

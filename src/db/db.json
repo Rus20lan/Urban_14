@@ -1,0 +1,515 @@
+{
+  "name": "ATB",
+  "fullName": "Andre Tanneberger",
+  "born": "26.02.1973",
+  "age": 51,
+  "email": "atb@atb.com",
+  "phone": "+49 2349109122",
+  "biography": "Producer, DJ and songwriter ATB – otherwise known in the real world as Andre Tanneberger – can look back on 20 extremely successful years in the international music business. The arrival of his new double album neXt allows us to share his equally promising vision of the future. Andre Tanneberger’s sharp rise to excellence began in the mid 1990s when his debut single 9 PM (Till I Come) shot to the very top of the UK charts and scored top 10 successes in many other countries around the globe. His creative spirit continued to flourish with an impressive string of hits like Ecstasy, Let U Go, What About Us, Move On and When It Ends It Starts Again. Gold and platinum awards in numerous territories underlined his status, mirrored by his constant presence in the prestigious DJ Mag Top 100 rankings for a decade and a half. ATB is one of just a handful of musicians to have emerged from the German club scene to become worldwide superstars – from Australia to Asia, Mexico to Poland, Russia and, above all, in the USA.",
+  "singles": [
+    {
+      "id": 1,
+      "single": "9 P.M. (Till I Come)",
+      "month": "10",
+      "year": "1998",
+      "release": "10/98",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117600488_ATB_9_PM_Till_I_Come_web-400x400.jpg"
+    },
+    {
+      "id": 2,
+      "single": "Don’t Stop",
+      "month": "03",
+      "year": "1999",
+      "release": "03/99",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117600532_ATB_Dont_Stop_web-400x400.jpg"
+    },
+    {
+      "id": 3,
+      "single": "Killer",
+      "month": "05",
+      "year": "1999",
+      "release": "05/99",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117600624_ATB_Killer_web-400x400.jpg"
+    },
+    {
+      "id": 3,
+      "single": "The Summer",
+      "month": "06",
+      "year": "2000",
+      "release": "06/00",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117600877_ATB_The_Summer_web-400x400.jpg"
+    },
+    {
+      "id": 4,
+      "single": "The Fields of Love",
+      "month": "10",
+      "year": "2000",
+      "release": "10/00",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117600945_ATB_feat._York_The_Fields_of_Love-400x400.jpg"
+    },
+    {
+      "id": 5,
+      "single": "Let U Go",
+      "month": "05",
+      "year": "2001",
+      "release": "05/01",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117601034_ATB_Let_U_Go-400x400.jpg"
+    },
+    {
+      "id": 6,
+      "single": "Hold You",
+      "month": "12",
+      "year": "2001",
+      "release": "12/01",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4029758347652_ATB_Hold_You_web-400x400.jpg"
+    },
+    {
+      "id": 7,
+      "single": "You’re not Alone",
+      "month": "04",
+      "year": "2002",
+      "release": "04/02",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4029758384756_ATB_Youre_Not_Alone_web-400x400.jpg"
+    },
+    {
+      "id": 8,
+      "single": "I don’t wanna stop",
+      "month": "04",
+      "year": "2003",
+      "release": "04/03",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4029758470053_ATB_I_Dont_Wanna_Stop_web-400x400.jpg"
+    },
+    {
+      "id": 9,
+      "single": "Long way home",
+      "month": "07",
+      "year": "2003",
+      "release": "07/03",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4029758496756_ATB_Long_Way_Home-400x400.jpg"
+    },
+    {
+      "id": 10,
+      "single": "Sunset Girl",
+      "month": "10",
+      "year": "2003",
+      "release": "10/03",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4014235315484_ATB_Sunset_Girl-400x400.jpg"
+    },
+    {
+      "id": 11,
+      "single": "Marrakech",
+      "month": "05",
+      "year": "2004",
+      "release": "05/04",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117601430_ATB_Marrakech-400x400.jpg"
+    },
+    {
+      "id": 12,
+      "single": "Ecstasy",
+      "month": "07",
+      "year": "2004",
+      "release": "07/04",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117601737_ATB_Ecstasy_web-400x400.jpg"
+    },
+    {
+      "id": 13,
+      "single": "Here with me/IntenCity",
+      "month": "10",
+      "year": "2004",
+      "release": "10/04",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117602062_ATB_Here_With_Me__Intencity_web-400x400.jpg"
+    },
+    {
+      "id": 14,
+      "single": "Believe in me",
+      "month": "06",
+      "year": "2005",
+      "release": "06/05",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/CS1204779-02A-BIG-400x400.jpg"
+    },
+    {
+      "id": 15,
+      "single": "Humanity",
+      "month": "08",
+      "year": "2005",
+      "release": "08/05",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117604523_ATB_Humanity_web-400x400.jpg"
+    },
+    {
+      "id": 16,
+      "single": "Let you go – Reworked",
+      "month": "12",
+      "year": "2006",
+      "release": "12/05",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117605292_ATB_Let_U_Go_Reworked-400x400.jpg"
+    },
+    {
+      "id": 17,
+      "single": "Summer Rain",
+      "month": "01",
+      "year": "2006",
+      "release": "01/06",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117605476_ATB_Summer_Rain_web-400x400.jpg"
+    },
+    {
+      "id": 18,
+      "single": "Renegade",
+      "month": "04",
+      "year": "2007",
+      "release": "04/07",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117607562_ATB_with_Heather_Nova_Renegade-400x400.jpg"
+    },
+    {
+      "id": 19,
+      "single": "Feel Alive",
+      "month": "07",
+      "year": "2007",
+      "release": "07/07",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117605292_ATB_Let_U_Go_Reworked-400x400.jpg"
+    },
+    {
+      "id": 20,
+      "single": "What about us/ L.A. Nights",
+      "month": "05",
+      "year": "2009",
+      "release": "05/09",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/881226410022_ATB_What_About_Us__L.A._Nights_web-400x400.jpg"
+    },
+    {
+      "id": 21,
+      "single": "Behind",
+      "month": "07",
+      "year": "2009",
+      "release": "07/09",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/881226448728_ATB__Flanders_Behind_web-400x400.jpg"
+    },
+    {
+      "id": 22,
+      "single": "Could you believe",
+      "month": "07",
+      "year": "2010",
+      "release": "07/10",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/881226672222_ATB_Could_You_Believe_web-400x400.jpg"
+    },
+    {
+      "id": 23,
+      "single": "Gold",
+      "month": "04",
+      "year": "2011",
+      "release": "04/11",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/881226921122_ATB_feat._JanSoon_Gold_Feat._Jansoon_web-400x400.jpg"
+    },
+    {
+      "id": 24,
+      "single": "Move on",
+      "month": "09",
+      "year": "2011",
+      "release": "09/11",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/881227006224_ATB_feat._JanSoon_Move_On_Remixes_web-400x400.jpg"
+    },
+    {
+      "id": 25,
+      "single": "Never give up feat. Ramona Nerra",
+      "month": "06",
+      "year": "2012",
+      "release": "06/12",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117621087_ATB_feat._Ramona_Nerra_Never_Give_Up_web-400x400.jpg"
+    },
+    {
+      "id": 26,
+      "single": "In And Out Of Love (with Rudee ft. Ramona Nerra)",
+      "month": "09",
+      "year": "2012",
+      "release": "09/12",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117624699_ATB_with_Rudee_feat._Ramona_Nerra_In_and_out_of_Love_web-400x400.jpg"
+    },
+    {
+      "id": 27,
+      "single": "Face To Face (feat. Stanfour)",
+      "month": "01",
+      "year": "2014",
+      "release": "01/14",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117639099_ATB_feat._Stanfour_Face_to_Face-400x400.jpg"
+    },
+    {
+      "id": 28,
+      "single": "When It Ends It Starts Again (feat. Sean Ryan)",
+      "month": "05",
+      "year": "2014",
+      "release": "05/14",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117642761_ATB_feat._Sean_Ryan_When_It_Ends_It_Starts_Again_web-400x400.jpg"
+    },
+    {
+      "id": 29,
+      "single": "Raging Bull (with Boss and Swan)",
+      "month": "07",
+      "year": "2014",
+      "release": "07/14",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117644123_ATB_with_Boss_and_Swan_Raging_Bull_web-400x400.jpg"
+    },
+    {
+      "id": 30,
+      "single": "Flash X",
+      "month": "10",
+      "year": "2015",
+      "release": "10/15",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/Flash-X600x600-400x400.jpeg"
+    },
+    {
+      "id": 31,
+      "single": "Connected",
+      "month": "02",
+      "year": "2017",
+      "release": "02/17",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117674311_ATB__Andrew_Rayel_Connected-400x400.jpg"
+    },
+    {
+      "id": 32,
+      "single": "Message out to you",
+      "month": "04",
+      "year": "2017",
+      "release": "04/17",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117676483_ATB_with_F51_feat._Robbin__Jonnis_Message_out_to_You_Feat._Robbin__Jonnis-400x400.jpg"
+    },
+    {
+      "id": 33,
+      "single": "Pages",
+      "month": "06",
+      "year": "2017",
+      "release": "06/17",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117680374_ATB_feat._HALIENE_Pages_ATBs_Festival_Mix_Short_Edit_web-400x400.jpg"
+    },
+    {
+      "id": 34,
+      "single": "Never Without You",
+      "month": "09",
+      "year": "2017",
+      "release": "09/17",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2021/11/never-without-you_web-1024x1024-1-400x400.jpg"
+    },
+    {
+      "id": 35,
+      "single": "Body 2 Body",
+      "month": "08",
+      "year": "2018",
+      "release": "09/17",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2021/11/atb-body2body02-400x400.jpg"
+    },
+    {
+      "id": 36,
+      "single": "Heartbeat",
+      "month": "03",
+      "year": "2019",
+      "release": "03/19",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2021/11/ATB-Markus-Schulz-Cover-400x400.jpg"
+    },
+    {
+      "id": 37,
+      "single": "Your Love (9PM)",
+      "month": "01",
+      "year": "2021",
+      "release": "01/21",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2021/11/Your-Love-9PM-artwork-small-400x400.jpg"
+    },
+    {
+      "id": 38,
+      "single": "Like That",
+      "month": "08",
+      "year": "2021",
+      "release": "08/21",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2021/11/ATB-feat.-Ben-Samama-Like-That-Cover-3000px_small_2-400x400.jpg"
+    },
+    {
+      "id": 39,
+      "single": "Take A Moment",
+      "month": "02",
+      "year": "2024",
+      "release": "02/24",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2024/02/atb-singlecover-3000x3000px-scaled.jpg"
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "album": "Movin’ Melodies",
+      "month": "04",
+      "year": "1999",
+      "release": "04/99",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117600617_ATB_Movin_Melodies_web-1-400x400.jpg"
+    },
+    {
+      "id": 2,
+      "album": "Two Worlds",
+      "month": "11",
+      "year": "2000",
+      "release": "11/00",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117600914_ATB_Two_Worlds_web-1-400x400.jpg"
+    },
+    {
+      "id": 3,
+      "album": "Dedicated",
+      "month": "01",
+      "year": "2002",
+      "release": "01/02",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4029758363027_ATB_Dedicated_web-400x400.jpg"
+    },
+    {
+      "id": 4,
+      "album": "Addicted to Music",
+      "month": "04",
+      "year": "2003",
+      "release": "04/03",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4029758479827_ATB_Addicted_to_Music_web-400x400.jpg"
+    },
+    {
+      "id": 5,
+      "album": "The DJ 1 – In the Mix",
+      "month": "11",
+      "year": "2003",
+      "release": "11/03",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2018/01/atb-the-dj-in-the-mix-1_web-400x400.jpg"
+    },
+    {
+      "id": 6,
+      "album": "No Silence",
+      "month": "05",
+      "year": "2004",
+      "release": "05/04",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117601515_ATB_No_Silence_web-400x400.jpg"
+    },
+    {
+      "id": 7,
+      "album": "The DJ 2 – In the Mix",
+      "month": "11",
+      "year": "2004",
+      "release": "11/04",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/atb-the-dj-in-the-mix-2-400x400.jpg"
+    },
+    {
+      "id": 8,
+      "album": "Seven Years",
+      "month": "06",
+      "year": "2005",
+      "release": "06/05",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117604196_ATB_Seven_Years_web-400x400.jpg"
+    },
+    {
+      "id": 9,
+      "album": "The DJ 3 – In the Mix",
+      "month": "02",
+      "year": "2006",
+      "release": "02/06",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2018/01/atb-the-dj-in-the-mix-3_web-400x400.jpg"
+    },
+    {
+      "id": 10,
+      "album": "Trilogy",
+      "month": "04",
+      "year": "2007",
+      "release": "04/07",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2018/01/atb-the-dj-in-the-mix-3_web-400x400.jpg"
+    },
+    {
+      "id": 11,
+      "album": "The DJ 4 – In the Mix",
+      "month": "12",
+      "year": "2007",
+      "release": "12/07",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117608965_ATB_The_DJ4_-_In_The_Mix_web-400x400.jpg"
+    },
+    {
+      "id": 12,
+      "album": "Future Memories",
+      "month": "05",
+      "year": "2009",
+      "release": "05/09",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/881226410220_ATB_Future_Memories_web-400x400.jpg"
+    },
+    {
+      "id": 13,
+      "album": "The DJ 5 – In the Mix",
+      "month": "01",
+      "year": "2010",
+      "release": "01/10",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/881226549722_ATB_The_DJ_5_in_the_Mix_web-400x400.jpg"
+    },
+    {
+      "id": 14,
+      "album": "Sunset Beach DJ Session",
+      "month": "07",
+      "year": "2010",
+      "release": "07/10",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/881226673526_ATB_ATB_Sunset_Beach_DJ_Session_web-400x400.jpg"
+    },
+    {
+      "id": 15,
+      "album": "The DJ 6 – In the Mix",
+      "month": "12",
+      "year": "2010",
+      "release": "12/10",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/881226819627_ATB_The_DJ_6_-_In_The_Mix_web-400x400.jpg"
+    },
+    {
+      "id": 16,
+      "album": "Distant Earth",
+      "month": "04",
+      "year": "2011",
+      "release": "04/11",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/881226922228_ATB_Distant_Earth_web-400x400.jpg"
+    },
+    {
+      "id": 17,
+      "album": "Distant Earth – Remixed",
+      "month": "09",
+      "year": "2011",
+      "release": "09/11",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/881227006026_ATB_Distant_Earth_Remixed_web-400x400.jpg"
+    },
+    {
+      "id": 18,
+      "album": "Sunset Beach DJ Session 2",
+      "month": "06",
+      "year": "2012",
+      "release": "06/12",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117619473_ATB_ATB_Sunset_Beach_DJ_Session_2_web-400x400.jpg"
+    },
+    {
+      "id": 19,
+      "album": "All The Best",
+      "month": "09",
+      "year": "2012",
+      "release": "09/12",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/Cover_ATB_All-The-Best-Final_web-400x400.jpg"
+    },
+    {
+      "id": 20,
+      "album": "Contact",
+      "month": "01",
+      "year": "2014",
+      "release": "01/14",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2017/07/4250117639013_ATB_Contact_web-1-400x400.jpg"
+    },
+    {
+      "id": 21,
+      "album": "neXt",
+      "month": "04",
+      "year": "2017",
+      "release": "04/17",
+      "imgUrl": "https://atb-music.com/wp-content/uploads/2018/01/next_web-400x400.jpg"
+    }
+  ],
+  "quotes": [
+    "“My taste in music is really broad. When I record an album, I want it reflect my interest in the full spectrum of electronic club music – from energetic, pumping tracks to chilled out, ambient pieces. And you can’t squeeze all of that onto one CD.”",
+    "“Nearly all of my tracks can be played on guitar or piano – I see myself as a songwriter and I aim to convey emotions through melodies. Who knows, maybe one day I’ll release an unplugged album…?”",
+    "“What really matters, is that I have a clear vision of the album in my head. And that takes time. I reach a point which you might call zero. Once I have arrived there, I can begin. The vocalists are fully integrated into the process, most of them are songwriters themselves so they often come up with melodies which can flow into my songs as essential elements of the tracks. This is one of the main reasons why I can stay true to my own sound whilst still having the capacity to surprise people with new twists in the music.”"
+  ],
+  "categories": [
+    "professions",
+    "genres",
+    "instruments",
+    "labels",
+    "groups",
+    "discography",
+    "singles"
+  ]
+}
