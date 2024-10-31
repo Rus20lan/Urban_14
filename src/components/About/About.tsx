@@ -2,7 +2,6 @@ import Button from '../Button/Button';
 import style from './about.module.css';
 import btn from '../../db/btn.json';
 import atbAbout from '../../images/atb_about.webp';
-// import star4 from '../../icons/star4.png';
 import { FC } from 'react';
 import { updateStringByNum } from '../../modules/modules';
 import AboutTitle from './AboutTitle/AboutTitle';
@@ -10,6 +9,8 @@ import face from '../../icons/f.svg';
 import tw from '../../icons/t.svg';
 import in_ from '../../icons/in.svg';
 import SocialButtons from '../SocialButtons/SocialButtons';
+import TitlePart from '../TitlePart/TitlePart';
+import { IButtonData } from '../../interfaces';
 
 type Props = {
   biography: string;
@@ -20,13 +21,14 @@ const About: FC<Props> = ({ biography, email, phone }) => {
   return (
     <div className={style.container}>
       <div className={style.aboutFirstLine}>
-        <div className={style.aboutTitle}>
-          <div>
-            <p>About</p>
-            <h1>I am Andre Tanneberger</h1>
-          </div>
-          <Button text={btn[0].text} size={btn[0].size} />
-        </div>
+        <TitlePart
+          namePart={'About'}
+          headPart={'I am Andre Tanneberger'}
+          isNavigatyBtns={false}
+          isButton={true}
+          objBtn={[btn[0] as IButtonData]}
+          styleGroup={{ maxWidth: '163px', width: '100%' }}
+        />
       </div>
       <div className={style.aboutSecondLine}>
         <div className={style.aboutDivFoto}>
@@ -35,7 +37,7 @@ const About: FC<Props> = ({ biography, email, phone }) => {
         <div className={style.aboutIntroWrapper}>
           <div className={style.aboutIntroFirstLine}>
             <AboutTitle text="Introduction" />
-            <p>{updateStringByNum(biography, 419)}</p>
+            <p>{updateStringByNum(biography, 403)}</p>
           </div>
           <div className={style.aboutIntroSecondLine}>
             <AboutTitle text="Contact Information" />
@@ -52,8 +54,16 @@ const About: FC<Props> = ({ biography, email, phone }) => {
             <div className={style.aboutSocialWrapper}>
               <SocialButtons icons={[face, tw, in_]} />
               <div className={style.aboutBtnGroup}>
-                <Button text={btn[1].text} size={btn[1].size} />
-                <Button text={btn[2].text} size={btn[2].size} />
+                <Button
+                  text={btn[1].text}
+                  size={btn[1].size}
+                  path={btn[1].path}
+                />
+                <Button
+                  text={btn[2].text}
+                  size={btn[2].size}
+                  path={btn[2].path}
+                />
               </div>
             </div>
           </div>

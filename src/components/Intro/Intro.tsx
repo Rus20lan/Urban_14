@@ -3,14 +3,12 @@ import { PulseDiv } from '../animation/PulseDiv';
 import style from './intro.module.css';
 import { FC } from 'react';
 import labelAtb from '../../images/atb-animation.png';
-import IntroRunLine from './IntroRunLine/IntroRunLine';
 import IntroFotos from './IntroFotos/IntroFotos';
 
 type Props = {
   fullName: string;
-  categories: string[];
 };
-const Intro: FC<Props> = ({ fullName, categories }) => {
+const Intro: FC<Props> = ({ fullName }) => {
   return (
     <div className={style.container}>
       <div className={style.introName}>
@@ -23,16 +21,9 @@ const Intro: FC<Props> = ({ fullName, categories }) => {
             <img src={labelAtb}></img>
           </PulseDiv>
         </div>
-        <div className={style.introButtonWrapper}>
-          <p>
-            Let's
-            <IntroBtn /> listen together
-          </p>
-        </div>
+        <IntroBtn />
       </div>
-      <div className={style.introRunLine}>
-        <IntroRunLine categories={categories} />
-      </div>
+      <div className={style.introRunLine}></div>
       <div className={style.introFotos}>
         <IntroFotos />
       </div>

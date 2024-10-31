@@ -1,9 +1,7 @@
 .container {
   margin: 200px auto auto auto;
-  max-width: 1596px;
-  max-height: 834px;
-  width: 100%;
-  height: 100%;
+  width: 83.1%;
+  height: 834px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -30,4 +28,36 @@
   max-height: 594px;
   height: 100%;
   background-color: aquamarine;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    margin-top: 150px;
+    width: 88.9%;
+    gap: 60px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    margin-top: 80px;
+    gap: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .navBtnsWrapper {
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    height: 738px;
+  }
 }

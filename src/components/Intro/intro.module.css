@@ -1,13 +1,10 @@
 .container {
-  width: 90%;
-  /* background-color: white; */
-  max-height: 920px;
-  height: 100%;
+  width: 83.1%;
+  height: 920px;
   margin: 0 auto;
 }
 
 .introName {
-  /* background-color: blue; */
   max-height: 328px;
   height: 100%;
   width: 100%;
@@ -15,13 +12,9 @@
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-
   -webkit-box-pack: justify;
-
   -moz-box-pack: justify;
-
   -ms-flex-pack: justify;
-
   justify-content: space-between;
 }
 .introNameWrapper {
@@ -51,46 +44,137 @@
   max-width: 346px;
   width: 100%;
 }
-.introButtonWrapper {
-  max-width: 484px;
-  width: 100%;
-  max-height: 168px;
-  height: 100%;
-  -ms-flex-item-align: center;
-  align-self: center;
-
-  /* margin: auto; */
-}
-.introButtonWrapper p {
-  margin: 0;
-  font-family: var(--font-manrope-s-b);
-  font-size: 3.4rem;
-  color: var(--grey-90);
-  text-transform: uppercase;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: start;
-  -moz-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  gap: 5px;
-}
-
 .introRunLine {
-  height: 13%;
-  max-width: 1920px;
-  width: 100vw;
+  /* height: 13%; */
+  max-height: 80px;
+  height: 100%;
+  /* max-width: 100%; */
+  width: 100%;
   background-color: var(--dark-06);
-  margin-left: -5.5%;
+  /* margin-left: -5.5%; */
 }
 .introFotos {
   width: 100%;
   max-height: 512px;
   height: 100%;
-  /* background-color: blueviolet; */
   border-radius: 11px;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 88.9%;
+    height: 742px;
+  }
+  .introName {
+    max-height: 256px;
+  }
+  .introNameWrapper p {
+    font-size: 1.1rem;
+  }
+  .introNameWrapper h1 {
+    font-size: 3.75rem;
+  }
+  .introLabelWrapper {
+    max-width: 262px;
+  }
+  .introLabelWrapper img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .introRunLine {
+    max-width: 1440px;
+    max-height: 62px;
+  }
+  .introFotos {
+    max-height: 424px;
+  }
+}
+@media (max-width: 1280px) {
+  .container {
+    height: 680px;
+  }
+  .introNameWrapper p {
+    font-size: 1.1rem;
+  }
+  .introNameWrapper h1 {
+    font-size: 3rem;
+  }
+  .introLabelWrapper {
+    max-width: 200px;
+  }
+  .introRunLine {
+    max-width: 1280px;
+    /* max-height: 62px; */
+  }
+  .introFotos {
+    max-height: 350px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    height: 620px;
+  }
+  .introLabelWrapper {
+    display: none;
+  }
+  .introRunLine {
+    max-width: 1024px;
+  }
+  .introFotos {
+    max-height: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    height: 553px;
+  }
+  .introNameWrapper h1 {
+    font-size: 2.5rem;
+  }
+  .introName {
+    max-height: 268px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-top: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .introNameWrapper {
+    width: 100%;
+    max-height: 78px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .introRunLine {
+    max-width: 768px;
+    overflow: hidden;
+  }
+  .introFotos {
+    max-height: 223px;
+  }
+}
+@media (max-width: 480px) {
+  .introNameWrapper h1 {
+    font-size: 2rem;
+  }
 }

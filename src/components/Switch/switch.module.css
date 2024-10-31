@@ -7,11 +7,25 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: 5%;
-  /* color: white; */
   padding: 1%;
   cursor: pointer;
 }
-.btn-switch {
+.btnSwitch {
   height: 100%;
   width: 100%;
+}
+.dark {
+  background: var(--dark-06);
+}
+.light {
+  background: var(--purple-55);
+}
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .btn-switch {
+    height: 100%;
+    width: 100%;
+  }
 }

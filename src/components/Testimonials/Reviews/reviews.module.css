@@ -1,0 +1,25 @@
+.container {
+  max-height: 322px;
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 1440px) {
+  .container {
+    max-height: 263px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-height: 50%;
+  }
+}

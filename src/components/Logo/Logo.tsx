@@ -1,4 +1,3 @@
-// import logo from '../../images/atb_logo_white_250.png';
 import logo from '../../images/atb_logo_white_250.png';
 import style from './logo.module.css';
 

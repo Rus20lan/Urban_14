@@ -1,21 +1,17 @@
-import { FC } from 'react';
+import { FC, useContext } from 'react';
+import style from './socialButton.module.css';
+import { ThemeContext } from '../../../AppRouter';
 type Props = {
   icon: string;
 };
 const SocialButton: FC<Props> = ({ icon }) => {
-  const style = {
-    borderRadius: '100px',
-    // padding: '14px',
-    width: '48px',
-    height: '48px',
-    background: 'var(--dark-12)',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    cursor: 'pointer',
-  };
+  const currentTheme = useContext(ThemeContext);
+  let theme: string;
+  currentTheme?.theme === 'light'
+    ? (theme = `${style.aLink} ${style.light}`)
+    : (theme = `${style.aLink} ${style.dark}`);
   return (
-    <a style={style}>
+    <a className={theme}>
       <img
         style={{
           width: '20px',

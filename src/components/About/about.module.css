@@ -1,11 +1,7 @@
 .container {
-  margin-top: 200px;
   margin: 200px auto auto auto;
-  max-width: 1596px;
-  max-height: 950px;
-  width: 100%;
-  height: 100%;
-
+  width: 83.1%;
+  height: 950px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -40,27 +36,8 @@
   max-height: 110px;
   height: 100%;
 }
-.aboutTitle p {
-  margin: 0;
-  text-transform: uppercase;
-  font-size: 1.25rem;
-  font-family: var(--font-manrope-s-b);
-  color: var(--grey-50);
-}
-.aboutTitle h1 {
-  margin: 0;
-  font-family: var(--font-manrope-s-b);
-  font-size: 3.6rem;
-  text-transform: uppercase;
-}
-.aboutTitle a {
-  -ms-flex-item-align: center;
-  align-self: center;
-}
 .aboutSecondLine {
-  max-width: 1596px;
   width: 100%;
-  /* background-color: brown; */
   max-height: 710px;
   height: 100%;
   display: -webkit-box;
@@ -72,7 +49,7 @@
   display: grid;
   width: 50%;
   height: 100%;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(266px, 1fr));
   grid-template-rows: repeat(3, 1fr);
   background-color: white;
   border-radius: 12px;
@@ -87,11 +64,9 @@
   object-fit: cover;
 }
 .aboutIntroWrapper {
-  max-width: 783px;
   max-height: 612px;
-  width: 100%;
+  width: 49%;
   height: 100%;
-  /* background-color: white; */
   -ms-flex-item-align: center;
   align-self: center;
   margin-right: 0px;
@@ -102,7 +77,6 @@
 .aboutIntroFirstLine {
   border-bottom: 1px solid var(--dark-12);
   padding: 40px;
-  /* max-width: 783px; */
   width: auto;
   max-height: 276px;
   height: auto;
@@ -112,19 +86,8 @@
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  overflow: hidden;
 }
-/* .aboutIntroFirstLine img {
-  height: 40px;
-}
-.aboutIntroFirstLine h2 {
-  margin: 0;
-  font-family: var(--font-manrope-m);
-  font-weight: 500;
-  font-size: 1.8rem;
-  color: var(--grey-80);
-  -ms-flex-item-align: center;
-  align-self: center;
-} */
 .aboutIntroFirstLine p {
   margin: 0;
   font-family: var(--font-manrope-r);
@@ -132,6 +95,10 @@
   font-size: 18px;
   line-height: 150%;
   color: var(--grey-70);
+}
+.btnWrapper {
+  width: 163px;
+  height: 59px;
 }
 .aboutIntroSecondLine {
   padding: 40px;
@@ -219,4 +186,176 @@
   -moz-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-left: 5px;
+}
+@media (max-width: 1440px) {
+  .container {
+    margin: 150px auto auto auto;
+    width: 88.9%;
+    max-height: 775px;
+  }
+  .aboutFirstLine {
+    max-height: 130px;
+  }
+  .aboutDivFoto {
+    max-width: 630px;
+  }
+  .aboutSecondLine {
+    max-height: 585px;
+  }
+  .aboutIntroFirstLine p {
+    height: 162px;
+    overflow: hidden;
+  }
+  .aboutIntroWrapper {
+    max-width: 49%;
+    max-height: 519px;
+  }
+  .aboutIntroFirstLine {
+    padding: 30px;
+    max-height: 193px;
+  }
+  .aboutIntroSecondLine {
+    padding: 30px;
+    max-height: 206px;
+  }
+  .aboutSocialWrapper {
+    max-height: 56px;
+  }
+  .aboutNameEP {
+    font-size: 1rem;
+  }
+  .aboutValueEP {
+    font-size: 1.1rem;
+  }
+  .aboutBtnGroup {
+    max-width: 364px;
+    gap: 16px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    margin: 80px auto auto auto;
+    min-height: 1268px;
+  }
+  .aboutFirstLine {
+    max-height: 210px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .aboutTitle a {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+
+  .aboutIntroSecondLine {
+    gap: 30px;
+  }
+  .aboutSecondLine {
+    min-width: 100%;
+    margin-top: 40px;
+    min-height: 1082px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .aboutDivFoto {
+    min-width: 100%;
+    height: 50%;
+  }
+  .aboutIntroWrapper {
+    margin: 0px;
+    min-width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    min-height: 1400px;
+  }
+  .aboutSecondLine {
+    min-height: 1200px;
+  }
+  .aboutSocialWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .aboutBtnGroup {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .aboutIntroWrapper {
+    min-height: 711px;
+  }
+  .aboutIntroFirstLine {
+    min-height: 300px;
+    padding: 24px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .aboutIntroFirstLine p {
+    min-height: 210px;
+    font-size: 1rem;
+  }
+  .aboutIntroSecondLine {
+    gap: 20px;
+    min-height: 411px;
+    padding: 24px;
+  }
+  .aboutDivEP {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .aboutIntroSecondLine {
+    max-height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .aboutSocialWrapper {
+    min-height: 190px;
+  }
+  .aboutBtnGroup {
+    margin: 0;
+    min-height: 114px;
+  }
+  .aboutBtnGroup a {
+    min-width: 100%;
+    min-height: 49px;
+  }
 }

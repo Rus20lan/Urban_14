@@ -1,3 +1,5 @@
+import { IAlbum, ISingle } from '../interfaces';
+
 export function updateStringByNum(str: string, num: number): string {
   const strNum = str.length;
 
@@ -32,4 +34,24 @@ function checkingNumInRange(currentNum: number, lastIndex: number): number {
     return 0;
   }
   return currentNum;
+}
+
+export function getAlbumOrSingle(
+  array: IAlbum[] | ISingle[],
+  index: number
+): IAlbum | ISingle {
+  return array[index];
+}
+
+export function createClassNameByTheme(
+  currentTheme: string,
+  baseClass: string = '',
+  addClassLight: string,
+  addClassDark: string
+): string {
+  if (currentTheme === 'light') {
+    return `${baseClass} ${addClassLight}`;
+  } else {
+    return `${baseClass} ${addClassDark}`;
+  }
 }

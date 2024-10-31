@@ -1,0 +1,200 @@
+.container {
+  max-width: 512.33px;
+  max-height: 322px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+
+  border-radius: 12px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.dark {
+  background: var(--dark-06);
+  border: 1px solid var(--dark-12);
+}
+.light {
+  background: var(--purple-55);
+  border: 1px solid var(--purple-70);
+}
+.firstLine {
+  max-width: 432.33px;
+  width: 100%;
+  max-height: 68px;
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.namePersonBlock {
+  max-width: 222.33px;
+  width: 100%;
+  max-height: 57px;
+  height: 100%;
+}
+.mainFontReview {
+  width: 100%;
+  height: auto;
+  font-family: var(--font-manrope-m);
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 150%;
+  color: var(--grey-90);
+  overflow: scroll;
+}
+.statePerson {
+  font-family: var(--font-manrope-r);
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 150%;
+}
+.statePersonDark {
+  color: var(--grey-40);
+}
+.statePersonLight {
+  color: var(--dark-03);
+}
+.secondtLine {
+  max-width: 140px;
+  width: 100%;
+  max-height: 24px;
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  margin-left: 40px;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.thirdLine {
+  max-width: 432.33px;
+  width: 100%;
+  max-height: 90px;
+  height: 100%;
+  overflow: scroll;
+}
+@media (max-width: 1864px) {
+  .container {
+    max-width: 490px;
+  }
+}
+@media (max-width: 1780px) {
+  .container {
+    max-width: 480px;
+  }
+}
+@media (max-width: 1740px) {
+  .container {
+    max-width: 470px;
+  }
+}
+@media (max-width: 1700px) {
+  .container {
+    max-width: 460px;
+  }
+  .namePersonBlock {
+    max-width: 176.33px;
+    max-height: 54px;
+  }
+  .firstLine,
+  .thirdLine {
+    width: 85%;
+  }
+}
+@media (max-width: 1670px) {
+  .container {
+    max-width: 450px;
+  }
+}
+@media (max-width: 1440px) {
+  .container {
+    max-width: 408.33px;
+    max-height: 263px;
+  }
+  /* .firstLine,
+  .thirdLine {
+    width: 85%;
+  } */
+  .secondtLine {
+    margin-left: 30px;
+  }
+  .mainFontReview {
+    font-size: 1.1rem;
+  }
+  .statePerson {
+    font-size: 1rem;
+  }
+  .namePersonBlock {
+    max-width: 176.33px;
+    max-height: 54px;
+  }
+}
+@media (max-width: 1370px) {
+  .container {
+    /* max-width: 406.33px; */
+    max-width: 390px;
+  }
+}
+@media (max-width: 1300px) {
+  .container {
+    /* max-width: 406.33px; */
+    max-width: 370px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    /* max-width: 406.33px; */
+    max-width: 350px;
+  }
+  .mainFontReview {
+    font-size: 1rem;
+  }
+  .statePerson {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-height: 100%;
+  }
+  .firstLine,
+  .thirdLine {
+    max-width: 100%;
+  }
+  .statePerson {
+    font-size: 0.88rem;
+  }
+}
+@media (max-width: 480px) {
+}

@@ -1,11 +1,12 @@
-import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import App from './App.tsx';
 import './index.css';
+import { BrowserRouter } from 'react-router-dom';
+import AppRouter from './AppRouter.tsx';
+import ScrollToTop from './modules/ScrollToTop.tsx';
 
-createRoot(document.getElementById('root')!).render(<App />);
-{
-  /* <StrictMode>
-    
-</StrictMode> */
-}
+createRoot(document.getElementById('root')!).render(
+  <BrowserRouter>
+    <ScrollToTop />
+    <AppRouter />
+  </BrowserRouter>
+);

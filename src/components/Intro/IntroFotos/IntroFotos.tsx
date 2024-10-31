@@ -6,7 +6,7 @@ import atb_4 from '../../../images/collage/atb_4.webp';
 import atb_5 from '../../../images/collage/atb_5.webp';
 import atb_6 from '../../../images/collage/atb_6.webp';
 import { useContext } from 'react';
-import { ThemeContext } from '../../../App';
+import { ThemeContext } from '../../../AppRouter';
 
 const IntroFotos = () => {
   const currentTheme = useContext(ThemeContext);
@@ -49,10 +49,18 @@ const IntroFotos = () => {
         />
       </figure>
       <figure className={`${style.item} ${style.item5}`}>
-        <img className={style.itemImg} src={atb_5} alt="atb5" />
+        <img
+          className={`${style.itemImg} ${style.itemImg5}`}
+          src={atb_5}
+          alt="atb5"
+        />
       </figure>
       <figure className={`${style.item} ${style.item6}`}>
-        <img className={style.itemImg} src={atb_6} alt="atb6" />
+        <img
+          className={`${style.itemImg} ${style.itemImg6}`}
+          src={atb_6}
+          alt="atb6"
+        />
       </figure>
     </div>
   );

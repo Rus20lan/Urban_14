@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "home",
+    "links": [
+      { "id": 1, "link": "About me" },
+      { "id": 2, "link": "My works" },
+      { "id": 3, "link": "Testimonials" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Сolleagues",
+    "links": [
+      { "id": 1, "link": "Armin van Buuren" },
+      { "id": 2, "link": "Fisher" },
+      { "id": 3, "link": "Vini Vici" },
+      { "id": 4, "link": "Alesso" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Top 5 Albums",
+    "links": [
+      { "id": 1, "link": "Movin’ Melodies" },
+      { "id": 2, "link": "Two Worlds" },
+      { "id": 3, "link": "Dedicated" },
+      { "id": 4, "link": "Trilogy" },
+      { "id": 5, "link": "Future Memories" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Top 5 Singls",
+    "links": [
+      { "id": 1, "link": "9 P.M. (Till I Come)" },
+      { "id": 2, "link": "Killer" },
+      { "id": 3, "link": "Hold You" },
+      { "id": 4, "link": "Ecstasy" },
+      { "id": 5, "link": "Humanity" }
+    ]
+  }
+]

@@ -1,16 +1,22 @@
-import { useState, useContext } from 'react';
-import { ThemeContext } from '../../App';
+import { useContext } from 'react';
+import { ActiveContext, ThemeContext } from '../../AppRouter';
 import style from './nav.module.css';
-
-const links: string[] = ['Home', 'About Me', 'Portfolio', 'Services'];
+import { useNavigate } from 'react-router-dom';
+import { links } from '../../utils/consts';
 
 const Nav = () => {
   const currentTheme = useContext(ThemeContext);
-  const [active, setActive] = useState(0);
+  const currentActive = useContext(ActiveContext);
+  const navigate = useNavigate();
   let theme = '';
-  const handleClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleClick = (
+    event: React.MouseEvent<HTMLAnchorElement>,
+    path: string
+  ) => {
     const target = event.target as HTMLAnchorElement;
-    setActive(+target.id);
+
+    navigate(path);
+    currentActive?.setActive(+target.id);
   };
 
   if (currentTheme?.theme === 'dark') {
@@ -22,18 +28,20 @@ const Nav = () => {
   return (
     <nav className={style.container}>
       <ul className={style.links}>
-        {links.map((link, index) => {
+        {links.map(({ name, path }, index) => {
           return (
             <li
               key={index}
-              className={`${style.link} ${active === index ? theme : ''}`}
+              className={`${style.link} ${
+                currentActive?.active === index ? theme : ''
+              }`}
             >
               <a
                 className={style.navA}
                 id={'' + index}
-                onClick={(event) => handleClick(event)}
+                onClick={(event) => handleClick(event, path)}
               >
-                {link}
+                {name}
               </a>
             </li>
           );
